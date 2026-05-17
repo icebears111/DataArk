@@ -448,32 +448,3 @@ master       ← 稳定版本
 └──────────────────────────────────────────┘
 ```
 
----
-
-## 十、简历描述模板
-
-### 一句话概括
-
-> Built a multi-agent AI data platform with **LangChain**, featuring 4 specialized agents (Router, Schema, Doc, Synthesis) collaborating through custom tools and memory chains, with a real-time React dashboard and JWT authentication.
-
-### 技术关键词
-
-```
-LangChain · FastAPI · React · TypeScript
-Multi-Agent Systems · RAG · Vector Database
-JWT Authentication · SSE Streaming
-SQLAlchemy · ChromaDB · Docker
-```
-
-### 详细描述
-
-> **DataArk — AI 数据智能平台**
->
-> 基于 LangChain 多 Agent 架构构建，4 个专业 Agent 协作完成数据查询、文档检索和答案合成。后端 FastAPI 提供 REST API + SSE 流式输出，前端 React + Tailwind 提供实时交互界面。
->
-> **技术亮点**：
-> - LangChain Agent + Tool 模式编排多 Agent 协作
-> - 多源数据接入（数据库 + 文档 + API）
-> - JWT 认证 + 密码加密
-> - SSE 实时流式传输
-> - 完整 SaaS 架构（多租户 + RBAC + 审计日志）
